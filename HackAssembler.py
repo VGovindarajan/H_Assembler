@@ -42,7 +42,7 @@ def get_num_as_str(num:int, str_len:int)->str:
 def get_destination_dict() -> dict:
     #Destinations
     destinations = {}
-    destinations['M'] = 0b000
+    destinations[''] = 0b000
     destinations['M'] = 0b001
     destinations['D'] = 0b010
     destinations['A'] = 0b100
